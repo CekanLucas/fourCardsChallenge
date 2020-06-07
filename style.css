@@ -4,6 +4,30 @@ body {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
+  text-align: center;
+  padding: 4em 1em;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.card {
+  padding: 2em;
+  border-top: #ea5353;
+}
+
+.card-heading {
+  text-align: left;
+  font-size: 1.1em;
+}
+
+.card-icon {
+  text-align: right;
+}
+#heading1 {
+  font-weight: 200;
 }
 
 /*# sourceMappingURL=style.css.map */
