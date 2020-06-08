@@ -30,6 +30,7 @@ main {
   color: #4c4e61;
   margin-bottom: 0.5em;
 }
+
 .col {
   display: flex;
   flex-direction: column;
@@ -98,7 +99,7 @@ main {
   color: #fcaf4a;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 375px) {
   main {
     display: block;
     width: 100%;
