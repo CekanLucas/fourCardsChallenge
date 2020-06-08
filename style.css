@@ -19,8 +19,9 @@ header {
 
 main {
   display: flex;
-  margin: 4em 0 0 0;
+  margin: 4em auto 0 auto;
   justify-content: center;
+  width: 80em;
 }
 
 .heading {
@@ -100,6 +101,7 @@ main {
 @media screen and (max-width: 1440px) {
   main {
     display: block;
+    width: 100%;
   }
 
   header {
@@ -107,9 +109,19 @@ main {
     font-size: 0.7em;
   }
 
+  .col {
+    margin: 0 auto;
+  }
+
+  .card {
+    margin: 1em auto;
+    max-width: 19em;
+  }
+
   p.caption:nth-child(3) {
     font-size: 1.4em;
-    margin: 0.9em 1em;
+    margin: 0.9em auto;
+    max-width: 20em;
   }
 }
 
